@@ -1,0 +1,187 @@
+/** @format */
+
+.bar {
+  position: absolute;
+  width: 100vw;
+  height: 115px;
+  left: 0px;
+  top: 0px;
+
+  background: #0d0d53;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 46px;
+  left: 188px;
+  top: 31px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.HomeBtn {
+  position: absolute;
+  width: max-content;
+  background: none;
+  border: none;
+  height: 27px;
+  left: 655px;
+  top: 49px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.FAQbtn {
+  position: absolute;
+  width: max-content;
+  background: none;
+  border: none;
+  height: 27px;
+  left: 867px;
+  top: 49px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.AboutBTN {
+  position: absolute;
+  width: max-content;
+  background: none;
+  border: none;
+  height: 27px;
+  left: 1028px;
+  top: 49px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.GenerateMotionBTN {
+  width: max-content;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 41px;
+  gap: 10px;
+  position: absolute;
+  height: 51px;
+  left: calc(50% - 265px / 2 + 382.5px);
+  top: 37px;
+  background: #1d43fe;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1400px) {
+  .logo {
+    position: absolute;
+    width: max-content;
+    height: 46px;
+    left: 150px;
+    top: 31px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 46px;
+    color: #ffffff;
+  }
+
+  .HomeBtn {
+    position: absolute;
+    width: max-content;
+    background: none;
+    border: none;
+    height: 27px;
+    left: 480px;
+    top: 49px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+
+  .FAQbtn {
+    position: absolute;
+    width: max-content;
+    background: none;
+    border: none;
+    height: 27px;
+    left: 680px;
+    top: 49px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+
+  .AboutBTN {
+    position: absolute;
+    width: max-content;
+    background: none;
+    border: none;
+    height: 27px;
+    left: 830px;
+    top: 49px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+
+  .GenerateMotionBTN {
+    width: max-content;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 41px;
+    gap: 10px;
+    position: absolute;
+    height: 51px;
+    top: 37px;
+    background: #1d43fe;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+}
